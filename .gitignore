@@ -1,0 +1,61 @@
+# -----------------------------
+# Python cache
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+env/
+.venv/
+
+# -----------------------------
+# Dataset (MUST be excluded)
+# -----------------------------
+data/
+dataset/
+
+# -----------------------------
+# YOLO training outputs
+# -----------------------------
+runs/
+
+# Ignore all model weights
+*.pt
+*.pth
+
+# Allow ONLY the required best model (if <50MB)
+!runs/cats_v1/weights/
+!runs/cats_v1/weights/best.pt
+
+# -----------------------------
+# Logs and outputs
+# -----------------------------
+*.log
+results.png
+
+# -----------------------------
+# System files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDE settings
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# Git / misc
+# -----------------------------
+*.lock
