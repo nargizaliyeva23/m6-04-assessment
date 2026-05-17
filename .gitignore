@@ -24,10 +24,7 @@ env/
 data/
 dataset/
 
-# -----------------------------
-# YOLO training outputs
-# -----------------------------
-runs/
+
 
 # Ignore all model weights
 *.pt
